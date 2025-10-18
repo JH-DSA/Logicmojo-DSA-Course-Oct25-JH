@@ -154,3 +154,4 @@ public class BubbleSortSolution {
 
 // Time Complexity: O(n^2) in the worst and average cases, O(n) in the best case (when the array is already sorted).
 // Space Complexity: O(1) as it is an in-place sorting algorithm.
+// When to use bubble sort: when the array is nearly sorted, as it can finish in O(n) time in that case.

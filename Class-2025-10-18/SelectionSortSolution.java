@@ -80,3 +80,4 @@ public class SelectionSortSolution {
 
 // Time Complexity: O(n^2) because of the nested loops
 // Space Complexity: O(1) as we are using constant space
+// When to use selection sort: small datasets, when memory write operations are costly.

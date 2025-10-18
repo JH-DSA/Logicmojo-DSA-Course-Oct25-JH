@@ -53,3 +53,4 @@ public class InsertionSortSolution {
 
 // Time Complexity: O(n^2) in the worst and average cases due to nested loops.
 // Space Complexity: O(1) as we are using constant space.
+// When to use insertion sort: when the array is mostly sorted or when the dataset is small.
