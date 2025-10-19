@@ -1,3 +1,32 @@
+/**
+ * LeetCode Problem #1: Two Sum - Easy
+ * 
+ * Problem Statement:
+ * Given an array of integers nums and an integer target, return indices of the two numbers 
+ * such that they add up to target. You may assume that each input would have exactly one 
+ * solution, and you may not use the same element twice. You can return the answer in any order.
+ * 
+ * Solution: Two Sum using HashMap
+ * This class provides an efficient solution to the Two Sum problem using a HashMap approach.
+ * The algorithm iterates through the array once while maintaining a map of previously seen
+ * elements and their indices.
+ * 
+ * Algorithm:
+ * 1. Create a HashMap to store element values as keys and their indices as values
+ * 2. For each element in the array:
+ *    - Calculate the complement (target - current element)
+ *    - Check if the complement exists in the HashMap
+ *    - If found, return the indices of the complement and current element
+ *    - If not found, add the current element and its index to the HashMap
+ * 3. Return an empty list if no solution is found
+ * 
+ * Time Complexity: O(n) - Single pass through the array with O(1) HashMap operations
+ * Space Complexity: O(n) - HashMap can store up to n elements in worst case
+ * Auxiliary Space: O(n) - Additional space used by the HashMap
+ * 
+ * @author Generated solution for Two Sum problem
+ * @version 1.0
+ */
 import java.util.*;
 
     public class TwoSumHashingSolution {

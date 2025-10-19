@@ -1,3 +1,4 @@
+// Insertion Sort - Easy
 public class InsertionSortSolution {
 
     // Single method that performs insertion sort on the provided array and prints result
